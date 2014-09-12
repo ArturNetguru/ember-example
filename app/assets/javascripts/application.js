@@ -12,5 +12,10 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require handlebars
+//= require ember
 //= require_tree .
+
+EmberApp = Ember.Application.create({
+  rootElement: '#ember-application-holder'
+})

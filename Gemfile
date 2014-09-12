@@ -10,3 +10,4 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
 gem 'ember-rails'
+gem 'haml-rails'
