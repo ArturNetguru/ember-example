@@ -1,0 +1,12 @@
+div This is all users
+h3 --------EACH---------
+each controller.model
+  div = name
+h3 --------COLLECTION----------
+div== view Ember.CollectionView contentBinding='controller.model' itemViewClass='EmberApp.UserCollectionView'
+h3 --------EACH COMPONENT---------
+ul
+  each controller.model
+    == user-summary n=name
+h3 ---------
+div {{outlet}}

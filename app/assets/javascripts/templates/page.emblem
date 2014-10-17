@@ -1,0 +1,4 @@
+h3 Main route
+div
+  a{{ action 'goToUsers' }} Load Users
+== outlet page

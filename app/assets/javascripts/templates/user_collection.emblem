@@ -1,0 +1,1 @@
+div User collection {{view.content}}

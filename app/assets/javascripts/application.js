@@ -14,7 +14,9 @@
 //= require jquery_ujs
 //= require handlebars
 //= require ember
-//= require_tree .
+//= require_self
+//= require app
+
 
 EmberApp = Ember.Application.create({
   rootElement: '#ember-application-holder'
